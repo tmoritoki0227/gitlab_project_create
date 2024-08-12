@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies..."
+      - chmod +x create_project.sh  # 必要であれば実行権限を付与
+  build:
+    commands:
+      - echo "Running create_project.sh..."
+      - ./create_project.sh
