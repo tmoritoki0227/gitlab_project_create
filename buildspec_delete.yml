@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies..."
+      - chmod +x delete_project_all.sh  # 必要であれば実行権限を付与
+  build:
+    commands:
+      - echo "Running delete_project_all.sh..."
+      - ./delete_project_all.sh
