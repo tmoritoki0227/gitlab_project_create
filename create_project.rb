@@ -1,4 +1,4 @@
-# lambda_function.rb に張り付けてね
+# lambda_function.rb に張り付けてね & プロジェクト内にprojects_and_branches.txtを設置すること
 require 'net/http'
 require 'uri'
 require 'json'
