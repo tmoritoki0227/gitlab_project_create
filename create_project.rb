@@ -3,8 +3,8 @@ require 'uri'
 require 'json'
 
 # GitLabのURLとパーソナルアクセストークン
-# GITLAB_URL = "http://35.75.155.254/gitlab/api/v4"
-# TOKEN = "glpat-wTscsa5Y6VrMVHDA7DsP"
+GITLAB_URL = "http://35.75.155.254/gitlab/api/v4"
+TOKEN = "glpat-wTscsa5Y6VrMVHDA7DsP"
 
 # プロジェクトとブランチのリストファイル
 FILE = 'projects_and_branches.txt'
