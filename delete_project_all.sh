@@ -3,7 +3,8 @@ set -ex
 
 GITLAB_URL="http://35.75.155.254/gitlab/api/v4" # ★ここは環境で変わるよ
 TOKEN="glpat-wTscsa5Y6VrMVHDA7DsP" # ★ここは環境で変わるよ
-# SSMの設定が必要
+
+# SSMの設定を使う場合
 # GITLAB_URL="http://${gitlab_url}/gitlab/api/v4"
 # TOKEN=${gitlab_access_token}
 
